@@ -9,8 +9,73 @@ body {
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
+
+.top {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    min-height: 85px;
+    background-color: #fff;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo__up {
+    width: 79px;
+    height: 23px;
+}
+.nav {
+    max-width: 555px;
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 172px; 
+}
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav ul li a {
+    color: #292929;
+    text-decoration: none;
+}
+.nav ul li a:hover {
+    color: #01996D;
+}
+.top__btn .top__p {
+    width: 59px;
+    height: 24px;
+    font-size: 20px;
+}
+.top__btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 277px;
+    height: 51px;
+    margin-left: 286px;
+}
+.top .top__button {
+    font-size: 20px;
+    width: 182px;
+    height: 51px;
+    align-items: center;
+    border-radius: 4px;
+    padding: 0px 8px 0 4px;
+    background-color: #01996D;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
 .container {
-    max-width: 1370px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
@@ -25,18 +90,22 @@ body {
 .header h1 {
     font-size: 65px;
     font-weight: bold;
+    line-height: 74px;
     font-family: 'Georgia', serif;
     color: #01996D;
     max-width: 440px;
     margin-top: 0;
+    margin-bottom: 30px;
     padding-top: 175px;
 }
 .header p {
     font-size: 20px;
     max-width: 420px;
+    line-height: 30px;
     height: 123px;
-    margin-bottom: 18px;
+    /* margin-bottom: 18px; */
     color: #484848;
+
 }
 .header button {
     font-size: 20px;
@@ -49,6 +118,91 @@ body {
     border: none;
     cursor: pointer;
 }
+
+.works {
+    max-width: 1413px;
+    width: 100%;
+    height: 1437px;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-top: 168px;
+}
+.works__titul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    /* padding-top: 168px; */
+}
+.titul__left {
+    padding-left: 7px;
+}
+.left__h6 {
+    width: 141px;
+    height: 38px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    color: #424242;
+    margin: 0;
+}
+.left__h2 {
+    width: 584px;
+    height: 158px;
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
+    margin: 0;
+}
+.works__rithe {
+    width: 655px;
+    height: 248px;
+    padding-top: 61px;
+}
+.work {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #424242;
+    margin: 0;
+}
+.works__down {
+    display: flex;
+
+}
+.Pers__01 {
+    width: 390px;
+    height: 937px;
+    margin-right: 95px;
+    margin-left: 6px;
+
+}
+.work1 {
+    width: 382px;
+    height: 140px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #424242;
+    margin: 0;
+    padding-top: 5px;
+    margin-bottom: 76px;
+}
+.down {
+}
+.Write__02 {
+    width: 392px;
+    height: 854px;
+    margin-right: 102px;
+    margin-top: 285px;
+}
+.Avilio__03 {
+    width: 441px;
+    height: 856px;
+}
+
+
 
 .footer {
     background-color: #245852;
